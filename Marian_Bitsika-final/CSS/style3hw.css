@@ -1,0 +1,124 @@
+body{
+  background-color: #6666ff;
+ }
+h1{
+   font-size: 48px;
+   text-align: center;
+     }
+h2 {
+    text-align: center;
+   }
+h2.letters{
+     text-align: center;
+     font-size: 46px;
+     width:24em;
+     font-family: Georgia;
+        }
+ul {
+          list-style:circle;
+         }
+li {
+      font-size:20px;
+      width:100%;
+      color:#33FFFF;
+              }
+span.important {
+            font-size:24px;
+            width:100%;
+            text-align: left;
+           }
+span.important.yes {
+                text-align: right;
+                  }
+span.nocolor{
+                 color:rgb(102, 102, 255)
+                               }
+span.nocolor.letters{
+        color:white;
+        text-align: right;
+              }
+span.nocolor.numbers{
+               font-family:Times New Roman;
+               color:white;
+
+                                     }
+ #hello{
+            font-family:Georgia;
+            font-size: 22px;
+            width:50em;
+              color: #CCFFFF;
+              text-align: center;
+              text-decoration: underline;
+              text-decoration-style: dotted;
+            text-decoration-color:orange;
+
+                                }
+h2.important {
+             color:#fd986c3;
+             font-size: 36px;
+             text-transform: uppercase;
+             font-style: italic;
+             font-family: monospace;
+             background-color: transparent;
+            text-decoration: overline;
+            text-decoration-color: fuchsia;
+            text-decoration-style:wavy;;
+            text-align: center;
+                                                                   }
+h3.important {
+                 color:  #fd986c3
+                   font-size: 36px;
+                   text-transform: uppercase;
+                   font-style: italic;
+                  font-family: monospace;
+                  background-color: transparent;
+                  text-decoration: overline;
+                  text-decoration-color:purple;
+                  text-decoration-style: wavy;
+                  text-align: center;
+                                 }
+                                 h3.important.yes {
+                                      color:rgb(192, 192, 192);
+                                      font-size: 34px;
+                                                    }
+                                  h3.important.no {
+                                       color: #f0115c;
+                                       text-transform:uppercase;;
+                                       text-decoration: none;
+                                   }
+                                  h3.important.no.yes {
+                                        color:#00ffff;
+                                        text-transform:full-width;;
+                                        text-decoration: none;
+                                    }
+  span.important {
+                                               color:  #fd986c3
+                                                 font-size: 36px;
+                                                 text-transform: uppercase;
+                                                 font-style: italic;
+                                                font-family: monospace;
+                                                background-color: transparent;
+                                                text-decoration: overline;
+                                                text-decoration-color:purple;
+                                                text-decoration-style: wavy;
+                                                text-align: center;
+                                                               }
+  span.important.yes {
+                                                                    color: #f011c4;
+                                                                    font-size: 34px;
+                                                                    font-weight: bolder;
+                                                                                  }
+  span.important.no {
+                                                                     color: #f0115c;
+                                                                     text-transform:uppercase;;
+                                                                     text-decoration: none;
+                                                                 }
+  span.important.no.yes {
+                                                                      color:rgb(0, 128, 128);
+                                                                      text-transform:full-width;;
+                                                                      text-decoration: none;
+                                                                  }
+span{
+  padding-left: 200px;
+  padding-right: 200px;
+}

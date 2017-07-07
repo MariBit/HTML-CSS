@@ -1,0 +1,211 @@
+nav{
+display: inline;
+}
+li{
+  padding:0;
+}
+h1{
+color: white;
+font-size:65px;
+font-family: 'Crushed', cursive;
+text-align: center;
+}
+section>p{
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  text-indent: 0;
+  color: #001838;
+  }
+p,td{
+  font-size: 24px;
+  font-family: 'Patrick Hand', cursive;
+  text-indent: 15px;
+  text-align: left;
+}
+td{
+  text-indent: 0px;
+}
+.tdcol-1{
+  width:9%
+}
+.tdcol-2{
+  width:45%;
+}
+
+h3,a,th,caption{
+  font-size: 25px;
+  text-align:left;
+  text-indent:50px;
+  font-family: 'Marmelad', sans-serif;
+  color: #c3deec ;
+}
+h3{
+  font-family: 'Merienda', cursive;
+
+}
+caption{
+  text-align: center;
+  font-size: 30px;
+}
+th{
+  font-family: 'The Girl Next Door', cursive;
+}
+th{
+  text-align: center;
+  text-indent: 0;
+  color:  #002454;
+}
+h2,label{
+  color: #001838;
+  font-size: 46px;
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  font-weight:bold;
+}
+textarea{
+  width:20%;
+  height:18%;
+  text-align: center;
+  }
+label{
+    font-size: 30px;
+    }
+input{
+  text-align: center;
+  width:20%;
+  height:9.5%;
+}
+html{
+  background: linear-gradient( to right bottom,#233875,#316aa0,#9dd7e5);
+  background:linear-gradient( #3276FF  , #92E0FF );
+}
+body{
+  margin:5% 2.5%;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.2);
+  text-align:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 2%;
+}
+li{
+  text-decoration: underline;
+  display: inline;
+  list-style-type:none;
+  font-size: 28px;
+  color:white;
+  text-align: center;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: 'Arima Madurai', cursive;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+
+.pageheaders{
+  font-size: 55px;
+    color:#0F5BCF  ;
+  font-family: 'David Libre', serif;
+}
+button{
+  color: white;
+  height:20%;
+  width:10%;
+  background: #0671f1;
+  margin-bottom: 3%;
+}
+button:hover{
+  border-radius: 50%;
+}
+button> p{
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c6ade7;
+}
+.about {
+  text-align:left;
+  text-indent: 29px;
+  font-family: 'Patrick Hand', cursive;
+  padding-right: 2%;
+  padding-left: 3%;
+  color:black;
+}
+h4{
+  font-size: 34px;
+  font-family: 'The Girl Next Door', cursive;
+  color: #370e6c;
+  font-weight: bolder;
+}
+td>img{
+  height: 25%;
+  width:90%;
+  float:left;
+  padding-right: 2%;
+  padding-left: 3%;
+  }
+  footer>a{
+      font-size: 20px;
+      color: black;
+      text-align: right;
+      position:absolute;
+      left:80%;
+      text-indent: 0;
+      text-decoration: none;
+    }
+    ::-webkit-input-placeholder {
+       color: black;
+       font-family: 'Gochi Hand', cursive;
+       font-size: 18px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color:black;
+       font-family: 'Gochi Hand', cursive;
+       font-size: 18px;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: black;
+       font-family: 'Gochi Hand', cursive;
+       font-size: 18px;
+    }
+
+    :-ms-input-placeholder {
+       color: black;
+       font-family: 'Gochi Hand', cursive;
+       font-size: 18px;
+    }
+caption{
+    margin:20px 0;
+    font-weight: bold;
+    font-size: 32px;
+    color:#204997 ;
+}
+a{
+  color: white;
+}
+a:hover{
+  color:rgb(0, 75, 184);
+}
+td>a:hover{
+  color:rgb( 120, 0, 184);
+}
+li>a:hover{
+  color:#A40A73    ;
+}
+.bio{
+  float: left;
+  width:35%;
+  height:100%;
+}

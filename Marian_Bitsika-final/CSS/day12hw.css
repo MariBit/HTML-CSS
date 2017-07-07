@@ -1,0 +1,112 @@
+.box{
+height:100px;
+width:100px;
+padding: 20px;
+margin: 10px;
+margin-top: 100px;
+margin-left: 50px;
+}
+.box1{
+  background: linear-gradient(#1a61c0, #61d895);
+  transform: scale(1.7) rotate(89deg);
+}
+.box2{
+  background:linear-gradient(#93dc14,#61d8d3);
+   transform: translate(-15px, 5%);
+}
+.box3{
+  background: linear-gradient(#f68f0c,#9d61d8);
+  transform: perspective(200px) skewY(5deg) rotateX(45deg);
+  transform-origin: 100% 100%;
+}
+.box4{
+  background: linear-gradient(rgb(98, 75, 46),  #1ebb4b);
+   transform: perspective(148px) rotateY(64deg);
+   }
+   .box5{
+     background: rgb(61, 111, 124);
+      transform: perspective(204px) scale(1.64) scaleZ(1.99) rotateX(23deg);
+            }
+    .box6{
+    background: rgb(245, 62, 7);
+  transform: rotate(-180deg);
+     }
+     .box6-2{
+     background: rgb(245, 62, 7);
+     display: inline-block;
+       transform: scaleX(-1);
+       filter: FlipH;
+      }
+      .box7 {
+        background: #2db34a;
+        transition-property: background;
+        transition-duration: .5s;
+        transition-timing-function: linear;
+      }
+      .box7:hover {
+        background: #aaa;
+      }
+          .box8 {
+        background: #2db34a;
+        transition-property: background;
+        transition-duration: .5s;
+        transition-timing-function: linear;
+        transition-property: border-radius;
+        transition-duration: 1.3s;
+        transition-timing-function:ease-in-out;
+        border-radius: 0;
+      }
+      .box8:hover {
+        background: #57890a;
+        border-radius: 50%;
+      }
+      @keyframes slide {
+      0% {
+        left:0;
+        top: 0;
+        border-radius: 0;
+              }
+      25% {
+        left: 200;
+        top: 0;
+
+      }
+      50% {
+        left:200;
+        top: 200;
+        border-radius: 50%;
+        background-color: #678fa3;
+      }
+      75% {
+        left:0;
+        top: 200;
+            }
+      100% {
+        left: 0;
+        top: 0;
+        border-radius: 0;
+      }
+      }
+      .box9 {
+      background: #eaeaed;
+      border-radius: 6px;
+      height: 300px;
+      position: relative;
+      min-width: 300px;
+      }
+      .box9:hover .ball {
+      animation: slide 2s ease-in;
+      animation-delay: .5s;
+      animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+      }
+      .ball {
+      background: #2db34a;
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      left:0;
+      top:0;
+      border: 3px dashed white;
+      }

@@ -1,0 +1,34 @@
+@media only screen and (min-width:321px) and (max-width: 1024px) {
+nav{
+  display:inline;
+}
+img{
+  width:55%;
+}
+iframe{
+  width:70%;
+  height:50%;
+}
+  label{
+      font-size: 32px;
+    }
+    input{
+      width:60%;
+      height:7%;
+    }
+    textarea{
+      width:50%;
+      height:12%;
+    }
+    button{
+      width:45%;
+      border-radius:40px;
+      height:15%;
+    }
+    p{
+      font-size: 28px;
+    }
+    h3{
+      font-size: 34px;
+    }
+}

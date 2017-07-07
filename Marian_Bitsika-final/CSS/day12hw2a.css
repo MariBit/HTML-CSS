@@ -1,0 +1,42 @@
+@keyframes slide {
+0% {
+  left:0;
+  top: 0;
+transform: rotate(720deg);           }
+
+50% {
+  left:90%;
+  top: 0;
+  transform: rotate(0deg);
+        }
+
+100% {
+  left: 0;
+  top: 0;
+  transform: rotate(0deg);
+      }
+}
+
+.box10 {
+background: #eaeaed;
+border-radius: 6px;
+height: 200px;
+position: relative;
+width:100%;
+max-width: 100%
+}
+.box10:hover .ball {
+animation: slide 1s ease-out;
+}
+.ball {
+background: #2db34a;
+height: 50px;
+width: 50px;
+position: absolute;
+left:0;
+top:0;
+border: 3px dashed white;
+}
+.box10:active .ball {
+animation-play-state: paused;
+}

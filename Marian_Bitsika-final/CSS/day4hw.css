@@ -1,0 +1,52 @@
+body{
+background-image:url(http://r.hswstatic.com/w_907/gif/nonhuman-animals-jobs-1.jpg);
+background-size: cover;
+}
+section{
+  border: 3px solid #56445D;
+  border-left:3px solid #56445D;
+  border-right: 3px solid #56445D;
+  border-bottom: 3px solid #56445D;
+  border-radius:10px;
+}
+h1{
+  text-align: center;
+  font-family: "Palatino Linotype";
+}
+h2{
+  font-family:"Rockwell";
+}
+p{
+  font-size:24px;
+  font-weight: bolder;
+  }
+  article{
+    border: 3px dashed #9055A2;
+    border-radius:10px;
+    background-color: white;
+  }
+  aside{
+    font-family: "Papyrus";
+    font-weight: normal;
+    border: 3px dotted #77AAAD;
+    background: linear-gradient(#4FB0C6, #6C49B8);
+      }
+  footer{
+    font-family: "Cambria";
+    font-size: 32px;
+    font-weight: normal;
+    border: 3px dotted #77AAAD;
+    background: radial-gradient(#6C49B8,#4FB0C6);
+    border-radius: 100px;
+    border-radius:50%;
+    image:position:absolute;
+    text-align: center;
+  }
+h3{
+  font-family: "Goudy Old Style";
+        background: radial-gradient(red,orange,yellow,green,blue,indigo,violet);
+        border-radius: 100px;
+        border-radius:50%;
+        border: 3px solid white;
+      text-align: center;
+    }

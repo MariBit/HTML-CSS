@@ -1,0 +1,5 @@
+@media screen and (max-device-width: 320px) {
+  img,audio {
+    float: none;
+  }
+}

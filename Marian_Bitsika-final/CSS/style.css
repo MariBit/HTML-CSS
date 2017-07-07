@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  color: green;
+  font-size: 24px;
+}
+p{
+  color: orange;
+  font-size: 20px;
+  font-weight: bolder;
+}
+h1{
+  color: blue;
+  font-weight: lighter;
+  }
+h2{
+  color: red;
+  font-family: sans-serif;
+  text-transform: full-width;
+}
+h3{
+  color: yellow;
+  font-style: italic;
+}
+h5{
+  color: black;
+  font-variant-east-asian: normal;
+}
+h4{
+  color: brown;
+  font-family: sans-serif;
+}
+h6{
+  color: purple;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+body {
+     background-color: pink;
+     color: white;
+     font-size: 36;
+      }
+  .important {
+        color: red;
+    text-transform: uppercase;
+    }
+    .reallycool  {
+          color: orange;
+          font-size: 56px;
+                }
+    #cool {
+     color: black;
+     font-size: 98px;
+     font-variant-caps: all-small-caps;
+    }
